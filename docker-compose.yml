@@ -9,3 +9,4 @@ services:
     volumes:
       - .:/usr/src/app
     tty: true
+    
