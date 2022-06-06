@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  cutleryshop:
+    build: .
+    container_name: cutleryshop
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/usr/src/app
